@@ -40,9 +40,10 @@
       <article id="contentstart">
          <div>
             <h2>Contact Us</h2>
-            <form class="contact-form" action="results.html">
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
                <p class="form-instructions">All fields are required</p>
                <fieldset class="contactinfo">
+				  <input type="hidden" name="access_key" value="a0b5f27c-6ccd-49b8-91e6-cb322084068c">
                   <label for="nameinput">
                      Name
                      <input type="text" name="name" id="nameinput" required>
@@ -54,7 +55,7 @@
                </fieldset>
                <fieldset class="additionalinfo">
                   <label for="other-info">
-                     Feedback or questions
+                     Job Description
                      <textarea name="other-info" id="other-info" rows="5" cols="50" required></textarea>
                   </label>
                </fieldset>
